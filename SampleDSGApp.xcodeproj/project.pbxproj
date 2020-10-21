@@ -13,6 +13,8 @@
 		51621970253FF7C600A1E800 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5162196E253FF7C600A1E800 /* Main.storyboard */; };
 		51621972253FF7F200A1E800 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51621971253FF7F200A1E800 /* Assets.xcassets */; };
 		51621975253FF7F200A1E800 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51621973253FF7F200A1E800 /* LaunchScreen.storyboard */; };
+		5162197D2540052E00A1E800 /* DemoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5162197C2540052E00A1E800 /* DemoCollectionViewCell.swift */; };
+		5162197F2540355600A1E800 /* QRCodeReaderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5162197E2540355600A1E800 /* QRCodeReaderViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		51621971253FF7F200A1E800 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		51621974253FF7F200A1E800 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		51621976253FF7F200A1E800 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5162197C2540052E00A1E800 /* DemoCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoCollectionViewCell.swift; sourceTree = "<group>"; };
+		5162197E2540355600A1E800 /* QRCodeReaderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeReaderViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				51621968253FF7C600A1E800 /* AppDelegate.swift */,
 				5162196A253FF7C600A1E800 /* SceneDelegate.swift */,
 				5162196C253FF7C600A1E800 /* ViewController.swift */,
+				5162197E2540355600A1E800 /* QRCodeReaderViewController.swift */,
+				5162197C2540052E00A1E800 /* DemoCollectionViewCell.swift */,
 				5162196E253FF7C600A1E800 /* Main.storyboard */,
 				51621971253FF7F200A1E800 /* Assets.xcassets */,
 				51621973253FF7F200A1E800 /* LaunchScreen.storyboard */,
@@ -139,8 +145,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				5162196D253FF7C600A1E800 /* ViewController.swift in Sources */,
+				5162197F2540355600A1E800 /* QRCodeReaderViewController.swift in Sources */,
 				51621969253FF7C600A1E800 /* AppDelegate.swift in Sources */,
 				5162196B253FF7C600A1E800 /* SceneDelegate.swift in Sources */,
+				5162197D2540052E00A1E800 /* DemoCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
