@@ -17,8 +17,8 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="qgX-5e-Mwp">
-                                <rect key="frame" x="5" y="44" width="404" height="692"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <rect key="frame" x="5" y="49" width="404" height="687"/>
+                                <color key="backgroundColor" red="0.057936633260000002" green="0.38416855570000003" blue="0.38384204399999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="D3y-iq-OWC">
                                     <size key="itemSize" width="128" height="128"/>
                                     <size key="headerReferenceSize" width="0.0" height="0.0"/>
@@ -57,7 +57,7 @@
                         </subviews>
                         <color key="backgroundColor" red="0.057936633261215245" green="0.38416855569948183" blue="0.38384204401692951" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="qgX-5e-Mwp" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="Biv-he-crP"/>
+                            <constraint firstItem="qgX-5e-Mwp" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="5" id="Biv-he-crP"/>
                             <constraint firstItem="qgX-5e-Mwp" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="GJw-vj-5sc"/>
                             <constraint firstItem="qgX-5e-Mwp" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="5" id="Q5y-vm-2NX"/>
                             <constraint firstItem="qgX-5e-Mwp" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" constant="-5" id="VDl-gV-JJW"/>

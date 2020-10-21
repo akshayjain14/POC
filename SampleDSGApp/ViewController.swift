@@ -12,7 +12,7 @@ import UIKit
 class ViewController: UIViewController, UICollectionViewDataSource, UICollectionViewDelegate,  UICollectionViewDelegateFlowLayout {
    
     @IBOutlet weak var dashBoardCollectionView: UICollectionView!
-     let array = ["Tier level", "Discounts & Coupons", "Today’s recommendations" , "QR Reader"]
+     let array = ["Tier Level", "Discounts & Coupons", "Today’s Recommendations" , "QR Reader"]
    
     override func viewDidLoad() {
         super.viewDidLoad()
